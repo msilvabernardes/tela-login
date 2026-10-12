@@ -6,3 +6,30 @@ Paleta de cores:
     Lilás: #5f2c82
 */
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: opx;
+
+}
+
+body{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    margin: auto;
+    margin-top: auto;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main > section > div > img {
+    width: 100%;
+
+}
