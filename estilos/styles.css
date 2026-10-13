@@ -17,19 +17,50 @@ body{
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 main {
-    margin: auto;
-    margin-top: auto;
-    padding: 10px;
-    height: 100vh;
-    width: 100vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    width: 400px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px black;
 }
 
 main > section > div > img {
     width: 100%;
+    margin-top: 0px;
+    border-radius: 40px 40px 0px 0px;
 
+}
+
+main > section > div > h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+main > section > div > p {
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+div#usuario{
+    padding: 10px;
+    text-align: center;
+}
+
+main > section > form > div#usuario > input {
+    height: 40px;
+    border-radius: 10px;
+}
+#icusuario {
+    border: 1px solid black;
 }
