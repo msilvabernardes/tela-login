@@ -27,13 +27,13 @@ Grandes: acima de 1200px
         height: 70vw;
     }
 
-    section#login > div#imagem {
+    div#imagem {
         float: left;
         width: 30%;
         height: 100vw;
         background-position: center;
     }
-    section#login > div#formulario{
+    div#formulario{
        float: right;
         width: 70%;
     }
@@ -50,7 +50,7 @@ Grandes: acima de 1200px
         height: 40vw;
     }
 
-    section#login > div#imagem {
+   div#imagem {
         float: right;
         width: 50%;
         height: 100vw;
@@ -58,7 +58,7 @@ Grandes: acima de 1200px
         background-position: center;
         
     }
-    section#login > div#formulario{
+    div#formulario{
        float: left;
         width: 50%;
     }

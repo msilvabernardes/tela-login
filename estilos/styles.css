@@ -9,7 +9,7 @@ Paleta de cores:
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: opx;
+    padding: 0px;
 }
 
 body{
@@ -35,7 +35,7 @@ main {
 
 }
 
-section#login > div#imagem {
+div#imagem {
 
     background-image: url(../imagens/metal.jpg);
     width: 100%;
@@ -45,16 +45,16 @@ section#login > div#imagem {
 
 }
 
-section#login > div#formulario{
+div#formulario{
     display: block;
 }
 
-main > section > div > h1 {
+main > div > h1 {
     padding: 20px;
     text-align: center;
 }
 
-main > section > div > p {
+main > div > p {
     padding: 10px;
     text-align: justify;
     margin-left: 10px;
@@ -72,7 +72,6 @@ a#esqueci {
     text-decoration: none;
     color: #0b1a19;
   
-
 }
 a#esqueci > span {
     font-size: 1.2em;
@@ -90,7 +89,69 @@ input#entrar{
     font-size: 1em;
     padding: 10px;
     width: 90%;
-    margin: auto;    
+    margin: auto;   
+    margin-top: 30px;
 }
-input#
 
+input#entrar:hover{
+    background-color: #193b39;
+    color: white;
+}
+
+.campo {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #5f2c82;
+}
+.senha{
+    display: block;
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #5f2c82;
+    margin-top: 10px;
+}
+
+.campo > label {
+    display: none;
+}
+
+.senha > label {
+    display: none;
+}
+.campo > span{
+    font-size: 2.5em;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    overflow: hidden;
+    margin: auto;
+
+}
+.senha > span {
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    width: 50px;
+    overflow: hidden;
+}
+.campo > input[type=email] {
+    background-color: #49a09d;
+    height: 100%;
+    width: calc(100% - 77px);
+    border-radius: 10px;
+    transform: translate(-15px, -25.5px);
+}
+
+.senha > input[type=password] {
+    background-color: #49a09d;
+    height: 100%;
+    width: calc(100% - 80px);
+    border-radius: 10px;
+    transform: translate(-15px, -33px);
